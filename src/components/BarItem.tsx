@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './BarItem.css';
 
 export default function BarItem() {
