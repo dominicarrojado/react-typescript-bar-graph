@@ -6,10 +6,10 @@ export default function BarGraph() {
   return (
     <div className="bar-graph">
       <div className="bars-list">
-        <BarItem />
-        <BarItem />
-        <BarItem />
-        <BarItem />
+        <BarItem legend="Year 1" />
+        <BarItem legend="Year 2" />
+        <BarItem legend="Year 3" />
+        <BarItem legend="Thereafter" />
       </div>
       <div className="bars-line" />
     </div>

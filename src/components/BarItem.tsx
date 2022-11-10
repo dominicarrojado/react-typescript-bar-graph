@@ -1,6 +1,14 @@
 import React from 'react';
 import './BarItem.css';
 
-export default function BarItem() {
-  return <div className="bar-item"></div>;
+type Props = {
+  legend: string;
+};
+
+export default function BarItem(props: Props) {
+  return (
+    <div className="bar-item">
+      <div className="bar-item-legend">{props.legend}</div>
+    </div>
+  );
 }

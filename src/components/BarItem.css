@@ -1,4 +1,5 @@
 .bar-item {
+  position: relative;
   flex: 1;
   height: 100%;
   background-color: #f2f2f2;
@@ -8,4 +9,15 @@
 
 .bar-item:hover {
   background-color: #54d6da;
+}
+
+.bar-item-legend {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  padding-top: 10px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
 }
