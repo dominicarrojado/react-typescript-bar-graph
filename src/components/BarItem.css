@@ -21,3 +21,7 @@
   line-height: 14px;
   text-align: center;
 }
+
+.bar-item:hover .bar-item-legend {
+  color: #2c2c2c;
+}
