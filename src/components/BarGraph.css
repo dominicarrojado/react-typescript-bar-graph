@@ -5,6 +5,10 @@
   height: 170px;
 }
 
+.bar-graph:not(:last-child) {
+  margin-bottom: 60px;
+}
+
 .bars-list {
   display: flex;
   align-items: flex-end;
