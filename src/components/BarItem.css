@@ -14,12 +14,12 @@
   border-top-left-radius: 4px;
 }
 
-.bar-item.is-negative .bar-item-main {
-  border-radius: 0 0 4px 4px;
-}
-
 .bar-item:hover .bar-item-main {
   background-color: #54d6da;
+}
+
+.bar-item.is-negative .bar-item-main {
+  border-radius: 0 0 4px 4px;
 }
 
 .bar-item.is-negative:hover .bar-item-main {

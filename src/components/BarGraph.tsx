@@ -29,14 +29,17 @@ export default function BarGraph({ dataArray }: Props) {
     const barsLinePercentage = `${barsLinePercent}%`;
     const barItems = dataArray.map(({ legend, value }) => {
       const isNegative = value < 0;
+      const barPercent = Math.round(
+        (Math.abs(value) / highestValueTotal) * 100
+      );
 
       return {
         legend,
         isNegative,
-        barPercentage: `${Math.round(
-          (Math.abs(value) / highestValueTotal) * 100
-        )}%`,
-        risePercentage: isNegative ? '0' : barsLinePercentage,
+        barPercentage: `${barPercent}%`,
+        risePercentage: isNegative
+          ? `${barsLinePercent - barPercent}%`
+          : barsLinePercentage,
       };
     });
 

@@ -3,9 +3,6 @@
   width: 100%;
   max-width: 400px;
   height: 170px;
-}
-
-.bar-graph:not(:last-child) {
   margin-bottom: 60px;
 }
 

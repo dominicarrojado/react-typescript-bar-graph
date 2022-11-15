@@ -38,12 +38,31 @@ export default function App() {
       legend: 'Thereafter',
     },
   ];
+  const dataArray3 = [
+    {
+      value: -150,
+      legend: 'Year 1',
+    },
+    {
+      value: -300,
+      legend: 'Year 2',
+    },
+    {
+      value: -700,
+      legend: 'Year 3',
+    },
+    {
+      value: -500,
+      legend: 'Thereafter',
+    },
+  ];
 
   return (
     <div className="container">
       <h1>React TypeScript Bar Graph</h1>
       <BarGraph dataArray={dataArray1} />
       <BarGraph dataArray={dataArray2} />
+      <BarGraph dataArray={dataArray3} />
     </div>
   );
 }
