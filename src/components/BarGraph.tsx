@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import BarItem from './BarItem';
 import './BarGraph.css';
 
-type Props = {
+export type Props = {
   dataArray: Array<{
     value: number;
     legend: string;
@@ -59,7 +59,11 @@ export default function BarGraph({ dataArray }: Props) {
           />
         ))}
       </div>
-      <div className="bars-line" style={{ bottom: barsLinePercentage }} />
+      <div
+        className="bars-line"
+        data-testid="bars-line"
+        style={{ bottom: barsLinePercentage }}
+      />
     </div>
   );
 }
