@@ -63,6 +63,11 @@ export default function App() {
       <BarGraph dataArray={dataArray1} />
       <BarGraph dataArray={dataArray2} />
       <BarGraph dataArray={dataArray3} />
+      <footer className="footer">
+        <a href="https://dominicarrojado.com/posts/how-to-create-your-own-bar-graph-in-react-and-typescript-with-tests-part-1/">
+          Learn how to build this bar graph component in React and TypeScript
+        </a>
+      </footer>
     </div>
   );
 }

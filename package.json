@@ -48,5 +48,6 @@
       "/src/index.tsx",
       "/src/reportWebVitals.ts"
     ]
-  }
+  },
+  "homepage": "."
 }

@@ -5,3 +5,16 @@
   padding: 20px 15px;
   user-select: none;
 }
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer a {
+  color: #555555;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #000000;
+}
