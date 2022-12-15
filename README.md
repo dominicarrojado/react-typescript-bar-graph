@@ -1,6 +1,6 @@
 # React TypeScript Bar Graph
 
-[![CI/CD](https://github.com/dominicarrojado/react-typescript-bar-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/react-typescript-bar-graph/actions/workflows/ci.yml)
+[![CI/CD](https://github.com/dominicarrojado/react-typescript-bar-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/react-typescript-bar-graph/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/dominicarrojado/react-typescript-bar-graph/branch/main/graph/badge.svg?token=4AT1AV4VDW)](https://codecov.io/gh/dominicarrojado/react-typescript-bar-graph)
 
 A bar graph component with positive and negative values bootstrapped with [Create React App](https://github.com/facebook/create-react-app) + [TypeScript](https://www.typescriptlang.org/).
 
